@@ -1,0 +1,501 @@
+openness,conscientiousness,extraversion,agreeableness,neuroticism,stress_level,coping_skill,personality_type,recommendation
+1,1,1,1,5,4,1,Anxiety Prone,Stress management and CBT techniques
+1,2,2,1,3,2,3,Balanced Personality,Regular mindfulness and emotional awareness
+1,4,4,3,3,5,4,Highly Disciplined,Structured tasks and responsibility roles
+4,2,1,4,5,3,1,Balanced Personality,Regular mindfulness and emotional awareness
+1,5,5,1,3,3,4,Highly Disciplined,Structured tasks and responsibility roles
+5,5,1,3,5,5,5,Anxiety Prone,Stress management and CBT techniques
+2,5,3,1,4,1,5,Highly Disciplined,Structured tasks and responsibility roles
+5,1,2,4,1,3,2,Balanced Personality,Regular mindfulness and emotional awareness
+4,5,1,1,1,4,5,Highly Disciplined,Structured tasks and responsibility roles
+5,2,5,5,1,2,2,Social Leader,Encourage teamwork and leadership
+5,3,5,4,5,3,2,Social Leader,Encourage teamwork and leadership
+3,5,4,2,2,3,4,Highly Disciplined,Structured tasks and responsibility roles
+1,4,1,4,4,1,5,Highly Disciplined,Structured tasks and responsibility roles
+5,4,4,4,5,5,4,Anxiety Prone,Stress management and CBT techniques
+2,1,4,4,3,4,1,Social Leader,Encourage teamwork and leadership
+3,4,5,1,2,3,3,Highly Disciplined,Structured tasks and responsibility roles
+5,5,2,1,4,1,4,Highly Disciplined,Structured tasks and responsibility roles
+4,1,2,2,2,3,1,Balanced Personality,Regular mindfulness and emotional awareness
+5,4,5,2,4,2,5,Creative Explorer,Encourage creative activities
+1,1,4,3,1,3,1,Balanced Personality,Regular mindfulness and emotional awareness
+4,2,2,5,5,1,1,Balanced Personality,Regular mindfulness and emotional awareness
+1,2,4,1,3,1,2,Balanced Personality,Regular mindfulness and emotional awareness
+5,5,4,3,3,1,5,Creative Explorer,Encourage creative activities
+4,5,5,1,3,5,5,Creative Explorer,Encourage creative activities
+1,1,5,5,2,2,1,Social Leader,Encourage teamwork and leadership
+4,5,1,2,2,3,5,Highly Disciplined,Structured tasks and responsibility roles
+1,1,5,2,4,2,2,Balanced Personality,Regular mindfulness and emotional awareness
+2,3,3,3,5,5,4,Anxiety Prone,Stress management and CBT techniques
+4,2,1,1,2,4,3,Balanced Personality,Regular mindfulness and emotional awareness
+2,4,1,1,2,3,4,Highly Disciplined,Structured tasks and responsibility roles
+5,4,3,3,5,3,4,Creative Explorer,Encourage creative activities
+4,1,3,3,2,5,1,Creative Explorer,Encourage creative activities
+1,3,4,2,5,1,3,Balanced Personality,Regular mindfulness and emotional awareness
+1,4,1,4,3,1,5,Highly Disciplined,Structured tasks and responsibility roles
+1,4,1,1,1,4,5,Highly Disciplined,Structured tasks and responsibility roles
+3,1,4,3,4,4,1,Anxiety Prone,Stress management and CBT techniques
+3,2,5,4,4,3,1,Social Leader,Encourage teamwork and leadership
+2,5,1,5,5,3,4,Highly Disciplined,Structured tasks and responsibility roles
+4,4,1,4,4,3,5,Highly Disciplined,Structured tasks and responsibility roles
+3,3,5,5,2,4,3,Social Leader,Encourage teamwork and leadership
+4,1,5,2,5,4,2,Anxiety Prone,Stress management and CBT techniques
+3,2,5,4,2,4,3,Social Leader,Encourage teamwork and leadership
+2,3,1,4,4,3,2,Balanced Personality,Regular mindfulness and emotional awareness
+1,3,3,5,4,2,4,Balanced Personality,Regular mindfulness and emotional awareness
+5,3,2,1,4,4,2,Anxiety Prone,Stress management and CBT techniques
+3,1,1,5,3,3,2,Balanced Personality,Regular mindfulness and emotional awareness
+4,5,4,5,4,2,5,Social Leader,Encourage teamwork and leadership
+3,3,1,1,1,2,4,Emotionally Stable,Maintain healthy lifestyle
+3,1,3,1,2,3,1,Balanced Personality,Regular mindfulness and emotional awareness
+3,1,3,3,3,2,2,Balanced Personality,Regular mindfulness and emotional awareness
+5,2,5,4,4,1,1,Social Leader,Encourage teamwork and leadership
+3,4,5,2,5,1,5,Highly Disciplined,Structured tasks and responsibility roles
+5,4,3,5,4,3,4,Creative Explorer,Encourage creative activities
+2,2,3,2,4,1,1,Balanced Personality,Regular mindfulness and emotional awareness
+2,3,1,1,4,3,4,Balanced Personality,Regular mindfulness and emotional awareness
+5,2,5,1,3,4,3,Creative Explorer,Encourage creative activities
+1,2,3,4,5,5,2,Anxiety Prone,Stress management and CBT techniques
+5,2,2,1,5,2,3,Balanced Personality,Regular mindfulness and emotional awareness
+1,5,3,1,3,4,4,Highly Disciplined,Structured tasks and responsibility roles
+5,5,2,2,3,3,5,Highly Disciplined,Structured tasks and responsibility roles
+1,4,4,4,3,3,5,Social Leader,Encourage teamwork and leadership
+4,5,4,1,2,3,5,Creative Explorer,Encourage creative activities
+3,1,4,3,4,3,1,Balanced Personality,Regular mindfulness and emotional awareness
+3,2,2,4,2,5,2,Balanced Personality,Regular mindfulness and emotional awareness
+3,4,1,3,1,4,3,Highly Disciplined,Structured tasks and responsibility roles
+2,4,1,1,4,4,5,Anxiety Prone,Stress management and CBT techniques
+5,4,1,2,2,5,5,Highly Disciplined,Structured tasks and responsibility roles
+1,1,4,4,5,1,1,Social Leader,Encourage teamwork and leadership
+4,5,5,2,2,2,5,Creative Explorer,Encourage creative activities
+5,5,2,1,2,1,5,Highly Disciplined,Structured tasks and responsibility roles
+5,5,2,1,5,5,5,Anxiety Prone,Stress management and CBT techniques
+4,2,4,2,3,1,1,Creative Explorer,Encourage creative activities
+5,2,3,5,3,3,1,Creative Explorer,Encourage creative activities
+3,1,5,4,2,1,1,Social Leader,Encourage teamwork and leadership
+3,3,4,4,1,1,2,Social Leader,Encourage teamwork and leadership
+4,5,4,4,1,4,5,Social Leader,Encourage teamwork and leadership
+2,3,1,1,1,1,3,Emotionally Stable,Maintain healthy lifestyle
+1,5,3,1,5,3,5,Highly Disciplined,Structured tasks and responsibility roles
+4,2,1,5,3,5,1,Balanced Personality,Regular mindfulness and emotional awareness
+4,2,3,3,4,4,3,Anxiety Prone,Stress management and CBT techniques
+1,1,3,1,4,1,1,Balanced Personality,Regular mindfulness and emotional awareness
+5,4,3,3,5,3,4,Creative Explorer,Encourage creative activities
+1,5,4,3,4,2,5,Highly Disciplined,Structured tasks and responsibility roles
+4,5,2,1,1,1,4,Highly Disciplined,Structured tasks and responsibility roles
+1,4,5,4,1,5,5,Social Leader,Encourage teamwork and leadership
+4,4,5,1,5,1,4,Creative Explorer,Encourage creative activities
+3,4,4,3,3,2,3,Highly Disciplined,Structured tasks and responsibility roles
+2,1,5,2,2,3,2,Balanced Personality,Regular mindfulness and emotional awareness
+3,5,4,1,4,4,5,Anxiety Prone,Stress management and CBT techniques
+2,5,4,1,1,4,5,Highly Disciplined,Structured tasks and responsibility roles
+4,4,5,1,3,3,4,Creative Explorer,Encourage creative activities
+1,5,4,5,4,5,5,Anxiety Prone,Stress management and CBT techniques
+1,1,5,2,4,1,2,Balanced Personality,Regular mindfulness and emotional awareness
+2,5,5,4,4,3,5,Social Leader,Encourage teamwork and leadership
+3,1,5,3,5,4,1,Anxiety Prone,Stress management and CBT techniques
+3,5,3,5,5,1,5,Highly Disciplined,Structured tasks and responsibility roles
+4,5,2,2,4,4,5,Anxiety Prone,Stress management and CBT techniques
+4,3,1,1,4,4,3,Anxiety Prone,Stress management and CBT techniques
+4,3,3,5,3,3,3,Creative Explorer,Encourage creative activities
+4,2,5,5,5,2,1,Social Leader,Encourage teamwork and leadership
+2,4,3,2,5,3,5,Highly Disciplined,Structured tasks and responsibility roles
+4,2,3,4,4,4,1,Anxiety Prone,Stress management and CBT techniques
+4,5,5,4,2,1,5,Social Leader,Encourage teamwork and leadership
+2,1,5,1,5,3,2,Balanced Personality,Regular mindfulness and emotional awareness
+2,5,4,5,1,3,4,Social Leader,Encourage teamwork and leadership
+4,3,5,4,5,4,3,Anxiety Prone,Stress management and CBT techniques
+5,4,4,1,4,2,4,Creative Explorer,Encourage creative activities
+1,2,1,1,1,2,1,Emotionally Stable,Maintain healthy lifestyle
+2,3,4,4,1,5,4,Social Leader,Encourage teamwork and leadership
+5,4,3,4,3,1,4,Creative Explorer,Encourage creative activities
+5,1,2,5,3,5,1,Balanced Personality,Regular mindfulness and emotional awareness
+2,4,1,2,3,5,4,Highly Disciplined,Structured tasks and responsibility roles
+4,3,4,2,5,5,4,Anxiety Prone,Stress management and CBT techniques
+5,2,2,4,3,5,2,Balanced Personality,Regular mindfulness and emotional awareness
+2,2,1,1,5,2,2,Balanced Personality,Regular mindfulness and emotional awareness
+1,3,1,3,3,1,3,Balanced Personality,Regular mindfulness and emotional awareness
+2,4,4,5,3,3,3,Social Leader,Encourage teamwork and leadership
+3,3,3,2,1,1,3,Emotionally Stable,Maintain healthy lifestyle
+2,5,5,4,1,1,5,Social Leader,Encourage teamwork and leadership
+2,3,2,1,2,1,2,Emotionally Stable,Maintain healthy lifestyle
+2,3,5,1,4,5,3,Anxiety Prone,Stress management and CBT techniques
+1,2,5,1,3,4,1,Balanced Personality,Regular mindfulness and emotional awareness
+2,3,5,1,5,4,2,Anxiety Prone,Stress management and CBT techniques
+4,1,5,1,2,4,1,Creative Explorer,Encourage creative activities
+5,3,3,4,1,1,2,Creative Explorer,Encourage creative activities
+1,2,3,3,3,1,3,Balanced Personality,Regular mindfulness and emotional awareness
+4,2,1,2,1,2,3,Emotionally Stable,Maintain healthy lifestyle
+4,1,1,4,4,1,1,Balanced Personality,Regular mindfulness and emotional awareness
+2,1,3,4,4,4,2,Anxiety Prone,Stress management and CBT techniques
+3,4,4,1,5,2,3,Highly Disciplined,Structured tasks and responsibility roles
+5,1,2,4,4,1,2,Balanced Personality,Regular mindfulness and emotional awareness
+2,4,2,2,3,2,5,Highly Disciplined,Structured tasks and responsibility roles
+1,5,1,4,4,2,5,Highly Disciplined,Structured tasks and responsibility roles
+1,1,1,3,5,1,2,Balanced Personality,Regular mindfulness and emotional awareness
+5,5,4,3,5,5,4,Anxiety Prone,Stress management and CBT techniques
+5,4,5,5,3,5,4,Social Leader,Encourage teamwork and leadership
+1,5,3,1,2,1,5,Highly Disciplined,Structured tasks and responsibility roles
+3,3,3,1,4,2,2,Balanced Personality,Regular mindfulness and emotional awareness
+1,3,5,5,1,1,3,Social Leader,Encourage teamwork and leadership
+1,2,5,5,3,3,1,Social Leader,Encourage teamwork and leadership
+3,1,1,5,4,4,1,Anxiety Prone,Stress management and CBT techniques
+5,2,4,5,5,4,1,Anxiety Prone,Stress management and CBT techniques
+1,2,4,3,1,2,2,Emotionally Stable,Maintain healthy lifestyle
+1,1,4,2,1,3,1,Balanced Personality,Regular mindfulness and emotional awareness
+1,4,2,3,5,5,3,Anxiety Prone,Stress management and CBT techniques
+1,2,3,5,3,1,3,Balanced Personality,Regular mindfulness and emotional awareness
+2,4,3,4,1,2,5,Highly Disciplined,Structured tasks and responsibility roles
+1,3,2,4,1,4,2,Balanced Personality,Regular mindfulness and emotional awareness
+4,5,4,4,3,5,4,Social Leader,Encourage teamwork and leadership
+3,4,3,4,3,1,3,Highly Disciplined,Structured tasks and responsibility roles
+1,5,3,3,1,2,5,Highly Disciplined,Structured tasks and responsibility roles
+1,1,3,2,3,2,1,Balanced Personality,Regular mindfulness and emotional awareness
+5,4,5,2,4,3,3,Creative Explorer,Encourage creative activities
+5,2,1,3,3,2,3,Balanced Personality,Regular mindfulness and emotional awareness
+1,4,1,4,3,4,4,Highly Disciplined,Structured tasks and responsibility roles
+1,4,2,2,2,1,5,Highly Disciplined,Structured tasks and responsibility roles
+2,1,3,1,1,3,1,Balanced Personality,Regular mindfulness and emotional awareness
+2,2,5,5,4,2,1,Social Leader,Encourage teamwork and leadership
+3,3,4,5,1,3,3,Social Leader,Encourage teamwork and leadership
+2,3,2,2,1,5,4,Balanced Personality,Regular mindfulness and emotional awareness
+3,4,3,1,4,2,4,Highly Disciplined,Structured tasks and responsibility roles
+2,5,2,1,5,2,5,Highly Disciplined,Structured tasks and responsibility roles
+1,2,3,3,5,5,2,Anxiety Prone,Stress management and CBT techniques
+1,1,3,4,1,1,1,Emotionally Stable,Maintain healthy lifestyle
+4,5,2,1,5,1,5,Highly Disciplined,Structured tasks and responsibility roles
+1,2,4,4,2,1,1,Social Leader,Encourage teamwork and leadership
+5,4,5,2,5,1,5,Creative Explorer,Encourage creative activities
+2,4,3,5,2,3,3,Highly Disciplined,Structured tasks and responsibility roles
+5,5,5,3,1,4,5,Creative Explorer,Encourage creative activities
+1,2,2,2,5,5,2,Anxiety Prone,Stress management and CBT techniques
+5,2,1,3,4,3,3,Balanced Personality,Regular mindfulness and emotional awareness
+2,5,2,3,3,1,4,Highly Disciplined,Structured tasks and responsibility roles
+3,5,4,3,3,4,5,Highly Disciplined,Structured tasks and responsibility roles
+1,3,5,2,5,4,4,Anxiety Prone,Stress management and CBT techniques
+4,4,3,5,2,4,5,Creative Explorer,Encourage creative activities
+5,1,4,5,5,5,1,Anxiety Prone,Stress management and CBT techniques
+2,5,4,5,1,5,5,Social Leader,Encourage teamwork and leadership
+5,3,4,5,2,1,4,Social Leader,Encourage teamwork and leadership
+5,4,4,3,4,1,4,Creative Explorer,Encourage creative activities
+4,3,3,3,2,5,4,Creative Explorer,Encourage creative activities
+2,3,5,2,2,5,3,Balanced Personality,Regular mindfulness and emotional awareness
+3,1,2,5,5,1,1,Balanced Personality,Regular mindfulness and emotional awareness
+2,2,1,3,5,5,1,Anxiety Prone,Stress management and CBT techniques
+5,3,5,2,1,1,4,Creative Explorer,Encourage creative activities
+3,5,3,1,1,1,4,Highly Disciplined,Structured tasks and responsibility roles
+3,3,3,4,4,4,3,Anxiety Prone,Stress management and CBT techniques
+3,5,4,3,4,3,4,Highly Disciplined,Structured tasks and responsibility roles
+1,2,4,1,4,2,3,Balanced Personality,Regular mindfulness and emotional awareness
+4,1,1,1,5,3,1,Balanced Personality,Regular mindfulness and emotional awareness
+5,2,3,5,5,5,2,Anxiety Prone,Stress management and CBT techniques
+4,1,4,1,4,1,1,Creative Explorer,Encourage creative activities
+3,4,3,1,5,3,3,Highly Disciplined,Structured tasks and responsibility roles
+4,4,1,3,1,1,3,Highly Disciplined,Structured tasks and responsibility roles
+3,2,4,4,5,1,3,Social Leader,Encourage teamwork and leadership
+5,2,4,2,4,5,3,Anxiety Prone,Stress management and CBT techniques
+5,3,5,1,4,1,4,Creative Explorer,Encourage creative activities
+4,3,1,1,5,3,3,Balanced Personality,Regular mindfulness and emotional awareness
+4,1,2,4,2,3,1,Balanced Personality,Regular mindfulness and emotional awareness
+1,5,5,5,2,1,4,Social Leader,Encourage teamwork and leadership
+4,3,3,2,2,1,2,Creative Explorer,Encourage creative activities
+2,1,3,4,5,2,1,Balanced Personality,Regular mindfulness and emotional awareness
+3,3,1,5,2,2,2,Emotionally Stable,Maintain healthy lifestyle
+5,1,1,1,3,1,1,Balanced Personality,Regular mindfulness and emotional awareness
+2,4,1,4,4,1,3,Highly Disciplined,Structured tasks and responsibility roles
+4,3,1,4,4,2,4,Balanced Personality,Regular mindfulness and emotional awareness
+5,5,2,2,2,3,5,Highly Disciplined,Structured tasks and responsibility roles
+4,3,4,3,4,3,4,Creative Explorer,Encourage creative activities
+2,5,2,1,1,1,5,Highly Disciplined,Structured tasks and responsibility roles
+3,2,2,3,2,2,2,Emotionally Stable,Maintain healthy lifestyle
+2,4,4,1,5,3,5,Highly Disciplined,Structured tasks and responsibility roles
+1,4,3,2,1,3,5,Highly Disciplined,Structured tasks and responsibility roles
+2,5,2,3,1,3,5,Highly Disciplined,Structured tasks and responsibility roles
+3,3,5,2,1,5,3,Balanced Personality,Regular mindfulness and emotional awareness
+2,2,5,4,5,5,2,Anxiety Prone,Stress management and CBT techniques
+5,1,5,1,3,2,1,Creative Explorer,Encourage creative activities
+4,2,1,5,5,3,1,Balanced Personality,Regular mindfulness and emotional awareness
+1,3,5,5,4,5,4,Anxiety Prone,Stress management and CBT techniques
+5,4,2,4,5,3,5,Highly Disciplined,Structured tasks and responsibility roles
+1,4,3,1,2,3,5,Highly Disciplined,Structured tasks and responsibility roles
+2,2,4,2,4,3,3,Balanced Personality,Regular mindfulness and emotional awareness
+5,3,3,2,4,2,4,Creative Explorer,Encourage creative activities
+3,2,4,4,1,2,3,Social Leader,Encourage teamwork and leadership
+4,2,3,2,4,3,1,Creative Explorer,Encourage creative activities
+1,3,2,5,1,3,3,Balanced Personality,Regular mindfulness and emotional awareness
+3,5,3,4,1,2,5,Highly Disciplined,Structured tasks and responsibility roles
+3,5,5,5,3,3,5,Social Leader,Encourage teamwork and leadership
+5,5,5,4,3,1,4,Social Leader,Encourage teamwork and leadership
+4,2,1,2,1,3,3,Balanced Personality,Regular mindfulness and emotional awareness
+3,1,5,4,3,2,1,Social Leader,Encourage teamwork and leadership
+4,5,3,5,2,1,5,Creative Explorer,Encourage creative activities
+2,3,5,5,4,2,4,Social Leader,Encourage teamwork and leadership
+2,1,1,5,1,4,1,Balanced Personality,Regular mindfulness and emotional awareness
+4,5,5,5,5,3,4,Social Leader,Encourage teamwork and leadership
+2,3,1,2,3,1,2,Balanced Personality,Regular mindfulness and emotional awareness
+3,3,5,3,2,4,3,Balanced Personality,Regular mindfulness and emotional awareness
+1,2,3,4,1,5,2,Balanced Personality,Regular mindfulness and emotional awareness
+3,2,3,3,2,2,3,Emotionally Stable,Maintain healthy lifestyle
+2,5,2,1,5,2,4,Highly Disciplined,Structured tasks and responsibility roles
+5,4,4,5,5,2,4,Social Leader,Encourage teamwork and leadership
+5,4,4,1,1,1,5,Creative Explorer,Encourage creative activities
+3,4,1,4,2,2,4,Highly Disciplined,Structured tasks and responsibility roles
+5,4,4,4,3,1,5,Social Leader,Encourage teamwork and leadership
+4,3,3,5,3,1,3,Creative Explorer,Encourage creative activities
+1,2,5,4,3,3,3,Social Leader,Encourage teamwork and leadership
+4,5,2,5,3,5,5,Highly Disciplined,Structured tasks and responsibility roles
+2,2,4,3,2,5,2,Balanced Personality,Regular mindfulness and emotional awareness
+3,1,3,1,1,3,1,Balanced Personality,Regular mindfulness and emotional awareness
+2,5,4,4,2,4,5,Social Leader,Encourage teamwork and leadership
+5,2,3,4,5,5,3,Anxiety Prone,Stress management and CBT techniques
+2,5,5,4,1,3,5,Social Leader,Encourage teamwork and leadership
+5,1,4,3,5,5,1,Anxiety Prone,Stress management and CBT techniques
+1,1,4,5,2,5,2,Social Leader,Encourage teamwork and leadership
+1,2,1,3,5,5,3,Anxiety Prone,Stress management and CBT techniques
+3,1,2,5,4,2,1,Balanced Personality,Regular mindfulness and emotional awareness
+3,4,5,3,1,5,3,Highly Disciplined,Structured tasks and responsibility roles
+3,3,4,2,5,3,4,Balanced Personality,Regular mindfulness and emotional awareness
+3,5,2,3,1,1,5,Highly Disciplined,Structured tasks and responsibility roles
+3,2,2,1,2,4,3,Balanced Personality,Regular mindfulness and emotional awareness
+4,3,2,2,2,4,4,Balanced Personality,Regular mindfulness and emotional awareness
+2,3,4,2,2,4,2,Balanced Personality,Regular mindfulness and emotional awareness
+4,4,3,4,4,5,5,Anxiety Prone,Stress management and CBT techniques
+5,4,5,5,5,3,5,Social Leader,Encourage teamwork and leadership
+3,2,1,5,3,2,3,Balanced Personality,Regular mindfulness and emotional awareness
+4,5,5,3,5,5,4,Anxiety Prone,Stress management and CBT techniques
+4,2,2,2,3,5,1,Balanced Personality,Regular mindfulness and emotional awareness
+3,5,3,2,1,1,5,Highly Disciplined,Structured tasks and responsibility roles
+2,2,2,1,2,1,2,Emotionally Stable,Maintain healthy lifestyle
+5,3,3,2,2,3,2,Creative Explorer,Encourage creative activities
+4,4,1,5,5,3,5,Highly Disciplined,Structured tasks and responsibility roles
+3,4,5,4,1,4,5,Social Leader,Encourage teamwork and leadership
+3,2,2,3,4,1,1,Balanced Personality,Regular mindfulness and emotional awareness
+3,1,2,2,5,2,1,Balanced Personality,Regular mindfulness and emotional awareness
+5,5,2,3,2,5,5,Highly Disciplined,Structured tasks and responsibility roles
+2,2,3,4,4,2,3,Balanced Personality,Regular mindfulness and emotional awareness
+5,4,3,4,5,2,4,Creative Explorer,Encourage creative activities
+2,3,4,2,2,3,2,Balanced Personality,Regular mindfulness and emotional awareness
+2,5,3,4,5,1,5,Highly Disciplined,Structured tasks and responsibility roles
+1,5,2,4,5,2,4,Highly Disciplined,Structured tasks and responsibility roles
+2,3,3,3,1,4,3,Balanced Personality,Regular mindfulness and emotional awareness
+4,3,2,4,5,2,2,Balanced Personality,Regular mindfulness and emotional awareness
+5,3,5,3,2,3,3,Creative Explorer,Encourage creative activities
+2,3,5,3,1,3,3,Balanced Personality,Regular mindfulness and emotional awareness
+5,3,1,3,5,4,4,Anxiety Prone,Stress management and CBT techniques
+4,3,5,3,5,1,2,Creative Explorer,Encourage creative activities
+2,3,1,1,1,2,2,Emotionally Stable,Maintain healthy lifestyle
+5,1,4,4,1,4,1,Social Leader,Encourage teamwork and leadership
+3,4,2,5,1,4,4,Highly Disciplined,Structured tasks and responsibility roles
+2,4,4,1,5,3,5,Highly Disciplined,Structured tasks and responsibility roles
+3,5,5,5,3,2,5,Social Leader,Encourage teamwork and leadership
+1,4,1,1,4,1,5,Highly Disciplined,Structured tasks and responsibility roles
+5,5,4,1,2,2,4,Creative Explorer,Encourage creative activities
+3,1,3,3,5,1,1,Balanced Personality,Regular mindfulness and emotional awareness
+1,5,3,3,2,1,5,Highly Disciplined,Structured tasks and responsibility roles
+3,2,1,4,3,1,1,Balanced Personality,Regular mindfulness and emotional awareness
+1,4,3,1,2,5,4,Highly Disciplined,Structured tasks and responsibility roles
+5,4,3,3,2,2,4,Creative Explorer,Encourage creative activities
+1,3,5,5,4,1,2,Social Leader,Encourage teamwork and leadership
+3,3,1,5,3,4,3,Balanced Personality,Regular mindfulness and emotional awareness
+2,3,4,3,5,2,4,Balanced Personality,Regular mindfulness and emotional awareness
+2,2,1,2,4,5,2,Anxiety Prone,Stress management and CBT techniques
+2,3,4,5,5,4,2,Anxiety Prone,Stress management and CBT techniques
+4,5,3,5,2,5,5,Creative Explorer,Encourage creative activities
+1,3,2,1,1,1,4,Emotionally Stable,Maintain healthy lifestyle
+5,3,4,1,5,5,4,Anxiety Prone,Stress management and CBT techniques
+4,3,5,5,5,1,3,Social Leader,Encourage teamwork and leadership
+3,1,1,1,2,5,1,Balanced Personality,Regular mindfulness and emotional awareness
+2,3,5,3,1,5,3,Balanced Personality,Regular mindfulness and emotional awareness
+5,2,1,1,2,2,2,Emotionally Stable,Maintain healthy lifestyle
+2,1,2,3,3,5,2,Balanced Personality,Regular mindfulness and emotional awareness
+1,2,2,2,1,1,1,Emotionally Stable,Maintain healthy lifestyle
+4,4,1,3,5,2,4,Highly Disciplined,Structured tasks and responsibility roles
+2,4,3,5,3,5,3,Highly Disciplined,Structured tasks and responsibility roles
+1,3,1,5,5,1,3,Balanced Personality,Regular mindfulness and emotional awareness
+4,3,4,2,4,4,4,Anxiety Prone,Stress management and CBT techniques
+4,2,3,2,1,5,1,Creative Explorer,Encourage creative activities
+2,5,1,1,2,1,5,Highly Disciplined,Structured tasks and responsibility roles
+2,4,4,5,5,5,4,Anxiety Prone,Stress management and CBT techniques
+1,2,4,1,3,2,1,Balanced Personality,Regular mindfulness and emotional awareness
+1,1,3,4,3,2,1,Balanced Personality,Regular mindfulness and emotional awareness
+3,2,4,4,1,3,1,Social Leader,Encourage teamwork and leadership
+1,5,4,2,4,5,5,Anxiety Prone,Stress management and CBT techniques
+3,3,3,4,3,3,2,Balanced Personality,Regular mindfulness and emotional awareness
+1,1,2,1,3,4,2,Balanced Personality,Regular mindfulness and emotional awareness
+5,1,1,4,4,5,1,Anxiety Prone,Stress management and CBT techniques
+4,3,4,2,4,1,2,Creative Explorer,Encourage creative activities
+2,5,1,3,2,3,5,Highly Disciplined,Structured tasks and responsibility roles
+3,3,3,2,2,4,3,Balanced Personality,Regular mindfulness and emotional awareness
+5,1,4,1,2,1,2,Creative Explorer,Encourage creative activities
+5,1,5,1,5,5,1,Anxiety Prone,Stress management and CBT techniques
+3,5,1,1,4,5,5,Anxiety Prone,Stress management and CBT techniques
+1,3,4,1,3,5,2,Balanced Personality,Regular mindfulness and emotional awareness
+5,1,4,2,3,5,1,Creative Explorer,Encourage creative activities
+2,2,2,1,1,3,3,Balanced Personality,Regular mindfulness and emotional awareness
+1,3,5,2,1,2,3,Emotionally Stable,Maintain healthy lifestyle
+3,5,5,1,3,3,4,Highly Disciplined,Structured tasks and responsibility roles
+3,4,5,2,4,3,5,Highly Disciplined,Structured tasks and responsibility roles
+3,1,4,2,5,2,2,Balanced Personality,Regular mindfulness and emotional awareness
+2,4,2,4,3,3,4,Highly Disciplined,Structured tasks and responsibility roles
+1,5,2,3,3,1,5,Highly Disciplined,Structured tasks and responsibility roles
+4,4,3,2,4,5,4,Anxiety Prone,Stress management and CBT techniques
+3,1,5,4,4,3,1,Social Leader,Encourage teamwork and leadership
+4,2,2,4,5,3,1,Balanced Personality,Regular mindfulness and emotional awareness
+2,5,1,2,5,5,5,Anxiety Prone,Stress management and CBT techniques
+1,3,2,5,5,1,3,Balanced Personality,Regular mindfulness and emotional awareness
+2,4,2,2,3,4,4,Highly Disciplined,Structured tasks and responsibility roles
+3,3,1,1,3,5,4,Balanced Personality,Regular mindfulness and emotional awareness
+2,4,3,3,4,5,3,Anxiety Prone,Stress management and CBT techniques
+1,3,1,3,2,5,3,Balanced Personality,Regular mindfulness and emotional awareness
+1,2,2,2,4,1,1,Balanced Personality,Regular mindfulness and emotional awareness
+2,5,4,4,3,1,5,Social Leader,Encourage teamwork and leadership
+1,5,5,3,2,2,5,Highly Disciplined,Structured tasks and responsibility roles
+1,1,2,3,5,1,2,Balanced Personality,Regular mindfulness and emotional awareness
+1,1,4,1,3,1,1,Balanced Personality,Regular mindfulness and emotional awareness
+5,3,1,3,5,2,4,Balanced Personality,Regular mindfulness and emotional awareness
+5,3,2,4,2,3,2,Balanced Personality,Regular mindfulness and emotional awareness
+3,4,5,3,5,2,4,Highly Disciplined,Structured tasks and responsibility roles
+3,5,2,3,5,5,4,Anxiety Prone,Stress management and CBT techniques
+2,3,5,1,1,5,4,Balanced Personality,Regular mindfulness and emotional awareness
+1,2,2,3,1,5,1,Balanced Personality,Regular mindfulness and emotional awareness
+5,3,5,5,2,5,3,Social Leader,Encourage teamwork and leadership
+5,3,2,4,1,3,3,Balanced Personality,Regular mindfulness and emotional awareness
+4,4,1,5,1,1,5,Highly Disciplined,Structured tasks and responsibility roles
+3,5,1,5,3,1,5,Highly Disciplined,Structured tasks and responsibility roles
+4,3,4,4,1,2,2,Social Leader,Encourage teamwork and leadership
+2,3,1,2,5,5,4,Anxiety Prone,Stress management and CBT techniques
+5,5,1,5,3,2,5,Highly Disciplined,Structured tasks and responsibility roles
+2,3,4,1,1,5,3,Balanced Personality,Regular mindfulness and emotional awareness
+4,5,1,1,2,5,5,Highly Disciplined,Structured tasks and responsibility roles
+1,3,4,1,3,5,3,Balanced Personality,Regular mindfulness and emotional awareness
+2,3,2,2,1,5,3,Balanced Personality,Regular mindfulness and emotional awareness
+4,1,5,4,4,1,1,Social Leader,Encourage teamwork and leadership
+1,1,5,3,5,5,1,Anxiety Prone,Stress management and CBT techniques
+3,5,1,3,5,5,5,Anxiety Prone,Stress management and CBT techniques
+4,5,3,3,1,2,4,Creative Explorer,Encourage creative activities
+2,4,2,1,2,1,4,Highly Disciplined,Structured tasks and responsibility roles
+1,3,2,5,1,5,4,Balanced Personality,Regular mindfulness and emotional awareness
+1,3,4,5,1,4,2,Social Leader,Encourage teamwork and leadership
+2,4,2,2,4,3,5,Highly Disciplined,Structured tasks and responsibility roles
+3,1,4,4,2,1,2,Social Leader,Encourage teamwork and leadership
+1,2,1,2,4,1,2,Balanced Personality,Regular mindfulness and emotional awareness
+2,5,5,2,2,5,4,Highly Disciplined,Structured tasks and responsibility roles
+4,5,4,3,1,4,5,Creative Explorer,Encourage creative activities
+4,2,5,1,2,3,3,Creative Explorer,Encourage creative activities
+1,3,3,4,4,2,2,Balanced Personality,Regular mindfulness and emotional awareness
+1,2,3,4,3,5,3,Balanced Personality,Regular mindfulness and emotional awareness
+2,2,2,3,5,2,1,Balanced Personality,Regular mindfulness and emotional awareness
+4,4,2,2,5,1,3,Highly Disciplined,Structured tasks and responsibility roles
+5,3,5,2,2,4,3,Creative Explorer,Encourage creative activities
+3,3,1,4,4,5,3,Anxiety Prone,Stress management and CBT techniques
+3,1,4,1,5,3,2,Balanced Personality,Regular mindfulness and emotional awareness
+4,5,1,4,1,5,5,Highly Disciplined,Structured tasks and responsibility roles
+4,2,2,2,2,2,3,Emotionally Stable,Maintain healthy lifestyle
+2,3,1,1,3,3,3,Balanced Personality,Regular mindfulness and emotional awareness
+4,4,5,5,3,3,5,Social Leader,Encourage teamwork and leadership
+5,2,3,2,5,1,2,Creative Explorer,Encourage creative activities
+5,5,5,4,2,1,5,Social Leader,Encourage teamwork and leadership
+1,4,5,4,5,2,4,Social Leader,Encourage teamwork and leadership
+5,1,3,5,3,5,1,Creative Explorer,Encourage creative activities
+5,1,4,5,1,2,1,Social Leader,Encourage teamwork and leadership
+4,4,3,2,3,3,5,Creative Explorer,Encourage creative activities
+4,3,3,1,2,5,3,Creative Explorer,Encourage creative activities
+5,4,3,3,5,4,5,Anxiety Prone,Stress management and CBT techniques
+3,1,1,1,1,5,1,Balanced Personality,Regular mindfulness and emotional awareness
+2,3,2,5,2,1,3,Emotionally Stable,Maintain healthy lifestyle
+2,5,4,1,1,2,5,Highly Disciplined,Structured tasks and responsibility roles
+2,1,5,3,5,2,2,Balanced Personality,Regular mindfulness and emotional awareness
+2,2,1,1,3,1,2,Balanced Personality,Regular mindfulness and emotional awareness
+5,4,3,1,1,1,4,Creative Explorer,Encourage creative activities
+4,5,1,2,1,1,5,Highly Disciplined,Structured tasks and responsibility roles
+1,2,2,1,5,3,1,Balanced Personality,Regular mindfulness and emotional awareness
+4,1,3,4,1,3,2,Creative Explorer,Encourage creative activities
+2,4,4,2,3,1,5,Highly Disciplined,Structured tasks and responsibility roles
+2,4,5,3,2,4,5,Highly Disciplined,Structured tasks and responsibility roles
+1,5,4,5,1,4,5,Social Leader,Encourage teamwork and leadership
+3,5,5,3,5,2,5,Highly Disciplined,Structured tasks and responsibility roles
+1,3,1,3,3,2,3,Balanced Personality,Regular mindfulness and emotional awareness
+5,2,5,2,3,5,3,Creative Explorer,Encourage creative activities
+5,4,4,5,4,2,4,Social Leader,Encourage teamwork and leadership
+3,2,1,1,5,2,1,Balanced Personality,Regular mindfulness and emotional awareness
+1,1,3,2,2,4,1,Balanced Personality,Regular mindfulness and emotional awareness
+1,4,2,3,5,5,3,Anxiety Prone,Stress management and CBT techniques
+3,2,2,1,2,4,3,Balanced Personality,Regular mindfulness and emotional awareness
+1,3,2,4,2,1,2,Emotionally Stable,Maintain healthy lifestyle
+4,4,1,1,5,3,3,Highly Disciplined,Structured tasks and responsibility roles
+1,5,5,2,3,3,4,Highly Disciplined,Structured tasks and responsibility roles
+5,4,3,1,5,4,3,Anxiety Prone,Stress management and CBT techniques
+4,2,2,2,3,4,2,Balanced Personality,Regular mindfulness and emotional awareness
+1,1,2,3,4,4,1,Anxiety Prone,Stress management and CBT techniques
+3,3,3,1,2,5,4,Balanced Personality,Regular mindfulness and emotional awareness
+2,3,2,2,4,2,3,Balanced Personality,Regular mindfulness and emotional awareness
+4,2,2,1,1,1,1,Emotionally Stable,Maintain healthy lifestyle
+1,2,5,2,4,3,3,Balanced Personality,Regular mindfulness and emotional awareness
+3,1,4,5,4,5,1,Anxiety Prone,Stress management and CBT techniques
+1,1,3,3,1,5,1,Balanced Personality,Regular mindfulness and emotional awareness
+3,2,2,1,2,3,3,Balanced Personality,Regular mindfulness and emotional awareness
+4,3,1,5,4,2,2,Balanced Personality,Regular mindfulness and emotional awareness
+5,5,3,3,3,4,5,Creative Explorer,Encourage creative activities
+1,4,4,1,4,5,5,Anxiety Prone,Stress management and CBT techniques
+4,1,3,4,2,5,1,Creative Explorer,Encourage creative activities
+2,3,2,1,1,1,3,Emotionally Stable,Maintain healthy lifestyle
+1,1,2,1,2,5,1,Balanced Personality,Regular mindfulness and emotional awareness
+1,3,2,5,2,1,4,Emotionally Stable,Maintain healthy lifestyle
+4,1,5,1,1,4,2,Creative Explorer,Encourage creative activities
+1,3,3,5,1,1,3,Emotionally Stable,Maintain healthy lifestyle
+4,4,4,4,5,4,4,Anxiety Prone,Stress management and CBT techniques
+1,2,4,5,5,5,2,Anxiety Prone,Stress management and CBT techniques
+2,3,1,3,5,1,2,Balanced Personality,Regular mindfulness and emotional awareness
+4,5,1,2,4,5,5,Anxiety Prone,Stress management and CBT techniques
+2,3,2,2,1,2,4,Emotionally Stable,Maintain healthy lifestyle
+2,4,3,3,3,2,5,Highly Disciplined,Structured tasks and responsibility roles
+2,4,4,5,2,2,5,Social Leader,Encourage teamwork and leadership
+2,3,2,1,1,3,3,Balanced Personality,Regular mindfulness and emotional awareness
+3,5,2,2,5,5,5,Anxiety Prone,Stress management and CBT techniques
+3,4,5,1,2,4,3,Highly Disciplined,Structured tasks and responsibility roles
+4,2,3,5,4,3,3,Creative Explorer,Encourage creative activities
+4,4,2,2,4,3,4,Highly Disciplined,Structured tasks and responsibility roles
+1,4,5,4,4,3,4,Social Leader,Encourage teamwork and leadership
+5,2,1,1,1,3,1,Balanced Personality,Regular mindfulness and emotional awareness
+1,2,3,2,4,3,1,Balanced Personality,Regular mindfulness and emotional awareness
+1,2,4,1,3,5,1,Balanced Personality,Regular mindfulness and emotional awareness
+4,1,1,1,5,3,1,Balanced Personality,Regular mindfulness and emotional awareness
+5,3,4,5,2,1,4,Social Leader,Encourage teamwork and leadership
+4,4,3,3,4,3,5,Creative Explorer,Encourage creative activities
+1,2,1,2,1,5,2,Balanced Personality,Regular mindfulness and emotional awareness
+5,3,5,1,2,3,4,Creative Explorer,Encourage creative activities
+4,5,3,5,2,2,5,Creative Explorer,Encourage creative activities
+3,2,1,1,3,1,2,Balanced Personality,Regular mindfulness and emotional awareness
+4,3,2,1,4,3,3,Balanced Personality,Regular mindfulness and emotional awareness
+5,3,3,5,4,5,4,Anxiety Prone,Stress management and CBT techniques
+1,2,2,1,2,3,2,Balanced Personality,Regular mindfulness and emotional awareness
+3,4,4,3,2,3,3,Highly Disciplined,Structured tasks and responsibility roles
+1,1,5,1,1,5,2,Balanced Personality,Regular mindfulness and emotional awareness
+5,4,3,3,5,2,3,Creative Explorer,Encourage creative activities
+1,4,3,4,1,2,3,Highly Disciplined,Structured tasks and responsibility roles
+1,4,5,1,2,1,5,Highly Disciplined,Structured tasks and responsibility roles
+1,1,5,4,5,2,1,Social Leader,Encourage teamwork and leadership
+3,3,1,1,3,2,2,Balanced Personality,Regular mindfulness and emotional awareness
+2,2,5,2,2,3,3,Balanced Personality,Regular mindfulness and emotional awareness
+3,2,3,2,1,3,2,Balanced Personality,Regular mindfulness and emotional awareness
+5,1,3,3,5,5,1,Anxiety Prone,Stress management and CBT techniques
+3,3,1,5,1,5,2,Balanced Personality,Regular mindfulness and emotional awareness
+2,1,3,1,2,5,1,Balanced Personality,Regular mindfulness and emotional awareness
+5,5,3,3,1,1,5,Creative Explorer,Encourage creative activities
+2,5,2,2,3,4,5,Highly Disciplined,Structured tasks and responsibility roles
+5,2,3,4,3,5,3,Creative Explorer,Encourage creative activities
+4,4,4,2,4,1,4,Creative Explorer,Encourage creative activities
+5,3,2,4,3,2,3,Balanced Personality,Regular mindfulness and emotional awareness
+4,2,1,4,3,3,3,Balanced Personality,Regular mindfulness and emotional awareness
+1,3,5,1,5,3,4,Balanced Personality,Regular mindfulness and emotional awareness
+4,3,5,3,3,4,2,Creative Explorer,Encourage creative activities
+3,1,4,3,3,5,2,Balanced Personality,Regular mindfulness and emotional awareness
+2,5,2,4,1,1,5,Highly Disciplined,Structured tasks and responsibility roles
+5,2,3,2,3,1,2,Creative Explorer,Encourage creative activities
+3,2,5,1,3,4,1,Balanced Personality,Regular mindfulness and emotional awareness
+2,5,5,2,2,5,4,Highly Disciplined,Structured tasks and responsibility roles
+3,3,4,5,3,3,3,Social Leader,Encourage teamwork and leadership
+3,1,5,5,5,5,1,Anxiety Prone,Stress management and CBT techniques
+4,1,1,5,3,2,1,Balanced Personality,Regular mindfulness and emotional awareness
+4,4,5,3,3,3,5,Creative Explorer,Encourage creative activities
+4,3,1,2,3,4,4,Balanced Personality,Regular mindfulness and emotional awareness
