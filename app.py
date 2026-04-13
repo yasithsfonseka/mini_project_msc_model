@@ -43,9 +43,10 @@ st.set_page_config(
 # ─────────────────────────────────────────────────────────────────────────────
 st.markdown("""
 <style>
+    /* ── BASE ── */
     .stApp { background-color: #0a0e27; color: #e0e0e0; }
 
-    /* Header banner */
+    /* ── HEADER ── */
     .app-header {
         background: linear-gradient(135deg, #1a3a52, #0a0e27, #16213e);
         color: white;
@@ -59,7 +60,7 @@ st.markdown("""
     .app-header h1 { font-size: 2.2em; font-weight: 800; margin: 0; }
     .app-header p  { font-size: 1em; opacity: 0.88; margin: 6px 0 0 0; }
 
-    /* Section labels */
+    /* ── SECTION LABELS ── */
     .section-label {
         background: linear-gradient(90deg, #0096ff, #005a96);
         color: white;
@@ -71,7 +72,18 @@ st.markdown("""
         display: inline-block;
     }
 
-    /* Personality result card */
+    /* ── REQUIRED FIELD ERROR ── */
+    .req-error {
+        background: rgba(231,76,60,0.15);
+        border: 1px solid #e74c3c;
+        border-radius: 8px;
+        padding: 10px 14px;
+        color: #ff6b6b;
+        font-size: 0.9em;
+        margin: 8px 0;
+    }
+
+    /* ── RESULT CARDS ── */
     .result-card {
         border-radius: 14px;
         padding: 22px;
@@ -87,7 +99,7 @@ st.markdown("""
     .card-risk-high { background: linear-gradient(135deg, #5a1a1a, #8a2a2a); }
     .card-numerology{ background: linear-gradient(135deg, #4a1a3f, #1a0a2f); }
 
-    /* Schedule day card */
+    /* ── DAY SCHEDULE CARDS ── */
     .day-card {
         background: #1a1f3a;
         border-left: 5px solid #0096ff;
@@ -100,7 +112,7 @@ st.markdown("""
     .day-card strong { font-size: 1.05em; color: #0096ff; }
     .day-slot { font-size: 0.88em; margin-top: 5px; color: #b0b0b0; }
 
-    /* Score metric override */
+    /* ── METRIC BOXES ── */
     div[data-testid="metric-container"] {
         background: #1a1f3a;
         border-radius: 10px;
@@ -110,7 +122,7 @@ st.markdown("""
         border: 1px solid #0096ff33;
     }
 
-    /* Predict button */
+    /* ── BUTTONS ── */
     div.stButton > button {
         background: linear-gradient(135deg, #0096ff, #0066cc);
         color: white;
@@ -120,17 +132,26 @@ st.markdown("""
         font-size: 1.1em;
         font-weight: 700;
         letter-spacing: 0.5px;
+        width: 100%;
     }
     div.stButton > button:hover {
         background: linear-gradient(135deg, #0066cc, #0096ff);
         color: white;
         box-shadow: 0 0 20px rgba(0, 150, 255, 0.4);
     }
+    /* Reset button — secondary style */
+    div.stButton > button[kind="secondary"] {
+        background: transparent;
+        border: 1px solid #e74c3c;
+        color: #ff6b6b;
+        font-size: 0.9em;
+        padding: 8px 0;
+    }
 
-    /* Tab styling */
+    /* ── TABS ── */
     button[data-baseweb="tab"] { font-weight: 600; }
 
-    /* Guidance box */
+    /* ── GUIDANCE BOX ── */
     .guidance-box {
         background: white;
         border-radius: 12px;
@@ -138,6 +159,57 @@ st.markdown("""
         box-shadow: 0 2px 10px rgba(0,0,0,0.07);
         margin-bottom: 14px;
         border-top: 4px solid #667eea;
+    }
+
+    /* ══════════════════════════════════════════
+       MOBILE RESPONSIVE — screens ≤ 768px
+       ══════════════════════════════════════════ */
+    @media screen and (max-width: 768px) {
+
+        /* Smaller header on mobile */
+        .app-header { padding: 20px 12px 16px 12px; border-radius: 10px; }
+        .app-header h1 { font-size: 1.3em !important; }
+        .app-header p  { font-size: 0.8em !important; }
+
+        /* Section labels smaller */
+        .section-label { font-size: 0.85em; padding: 7px 12px; }
+
+        /* Stack columns vertically */
+        div[data-testid="column"] { width: 100% !important; min-width: 100% !important; }
+
+        /* Result cards smaller padding */
+        .result-card { padding: 14px; font-size: 0.88em; }
+
+        /* Day cards smaller */
+        .day-card { padding: 10px 12px; }
+        .day-card strong { font-size: 0.95em; }
+        .day-slot { font-size: 0.8em; }
+
+        /* Survey radio buttons — stack vertically on mobile */
+        div[role="radiogroup"] { flex-direction: column !important; }
+        div[role="radiogroup"] > label { margin: 4px 0 !important; }
+
+        /* Buttons full width and bigger tap target */
+        div.stButton > button { font-size: 1em; padding: 12px 0; border-radius: 20px; }
+
+        /* Reduce general font size */
+        .stApp, .stMarkdown, p, label { font-size: 0.9em !important; }
+
+        /* Tabs scrollable on small screen */
+        div[data-baseweb="tab-list"] { overflow-x: auto; flex-wrap: nowrap; }
+        button[data-baseweb="tab"] { font-size: 0.8em; padding: 8px 10px; white-space: nowrap; }
+
+        /* Metric boxes full width */
+        div[data-testid="metric-container"] { padding: 10px; }
+
+        /* Reduce chart height on mobile */
+        .js-plotly-plot { max-height: 280px; }
+
+        /* Guidance box padding */
+        .guidance-box { padding: 12px; }
+
+        /* Main block padding reduction */
+        .block-container { padding: 0.5rem 0.75rem !important; }
     }
 </style>
 """, unsafe_allow_html=True)
@@ -818,44 +890,100 @@ def prob_bars(classes, probas):
 def render_survey_tab(questions, key_prefix, section_name, caption_text):
     """
     Render a survey section with multiple questions.
-    - questions: list of (question_text, is_reverse_scored) tuples
-    - key_prefix: unique prefix for storing responses (e.g., "c", "m", "w", "cp")
-    - section_name: heading text for the section
-    - caption_text: small description text below heading
-    Returns: list of user responses in order (e.g., ["Agree", "Strongly Agree", "Neutral"])
+    Uses session_state keys so answers persist across reruns.
+    Returns: list of user responses in order.
     """
-    st.markdown(f"**{section_name}**")  # Display section heading
-    st.caption(caption_text)  # Display description below heading
-    
-    responses = []  # Store user's answers
-    for i, (q, rev) in enumerate(questions):  # Loop through each question
-        # Add ↩️ prefix if question is reverse-scored (so higher number = different meaning)
+    st.markdown(f"**{section_name}**")
+    st.caption(caption_text)
+
+    responses = []
+    for i, (q, rev) in enumerate(questions):
         label = f"{'↩️ ' if rev else ''}Q{i+1}. {q}"
-        # Create radio button with 5-point Likert scale (default = "Neutral" = index 2)
-        r = st.radio(label, LIKERT_OPTS, index=2, key=f"{key_prefix}_{i}", horizontal=True)
-        responses.append(r)  # Store the selected response
-    
-    return responses  # Return all responses in order
+        key   = f"{key_prefix}_{i}"
+
+        # Initialise session state with default "Neutral" if not already set
+        if key not in st.session_state:
+            st.session_state[key] = "Neutral"
+
+        r = st.radio(
+            label, LIKERT_OPTS,
+            index=LIKERT_OPTS.index(st.session_state[key]),
+            key=key,
+            horizontal=True,
+        )
+        responses.append(r)
+
+    return responses
 
 
 # ═════════════════════════════════════════════════════════════════════════════
 # MAIN APP - Main function that orchestrates the entire app flow
 # ═════════════════════════════════════════════════════════════════════════════
+def _init_personal_state():
+    """
+    Initialise personal info fields in session_state so they persist.
+    Only sets defaults on the very first run.
+    """
+    defaults = {
+        "pi_name":       "",
+        "pi_age":        28,
+        "pi_gender":     "Male",
+        "pi_profession": "",
+        "pi_dob":        datetime.date(1995, 6, 15),
+        "profile_done":  False,   # True after successful prediction
+        "reset_clicked": False,
+    }
+    for k, v in defaults.items():
+        if k not in st.session_state:
+            st.session_state[k] = v
+
+
+def _reset_all():
+    """
+    Clear every saved key from session_state so the user starts fresh.
+    Called when the Reset button is clicked.
+    """
+    # Personal info keys
+    for k in ["pi_name", "pi_age", "pi_gender", "pi_profession", "pi_dob",
+              "profile_done", "reset_clicked"]:
+        if k in st.session_state:
+            del st.session_state[k]
+
+    # Survey question keys (24 questions across 4 sections)
+    for prefix in ["c", "m", "w", "cp"]:
+        for i in range(6):
+            k = f"{prefix}_{i}"
+            if k in st.session_state:
+                del st.session_state[k]
+
+    st.rerun()  # Refresh the page cleanly
+
+
 def main():
     """
     Main function - runs the entire Streamlit app.
-    Flow:
-    1. Load ML models (Buddhist classifier & Western classifier)
-    2. Display header and welcome message
-    3. Collect user personal information (name, age, gender, DOB)
-    4. Display survey with 4 sections (24 questions total)
-    5. When user clicks "Predict", calculate personality types & show results
-    6. Display comprehensive profile analysis (charts, schedule, guidance)
-    7. Allow user to download profile as CSV
+    Improvements in this version:
+    - Session state: all inputs persist until Reset is clicked
+    - Required fields: blocks submission if Name is empty
+    - Error handling: model loading errors shown clearly with retry option
+    - Mobile responsive: CSS handles small screens automatically
     """
-    
-    # Load the pre-trained machine learning models
-    clf_b, le_b, clf_w, le_w = load_models()
+
+    # Initialise persistent personal info fields
+    _init_personal_state()
+
+    # Load the pre-trained machine learning models with error handling
+    try:
+        clf_b, le_b, clf_w, le_w = load_models()
+    except Exception as e:
+        st.error(
+            f"**Model loading failed.** Please ensure both CSV dataset files "
+            f"are in the same folder as this app.\n\nError: `{e}`"
+        )
+        if st.button("🔄 Retry Loading Models", use_container_width=True):
+            st.cache_resource.clear()  # Clear cache and try again
+            st.rerun()
+        st.stop()  # Stop execution — don't show broken app below
 
     # ── HEADER ────────────────────────────────────────────────────────────────
     # Display main title and description in custom HTML styling
@@ -872,25 +1000,44 @@ def main():
     """, unsafe_allow_html=True)
 
     # ── PERSONAL INFORMATION ──────────────────────────────────────────────────
-    # Collect user's basic information needed for analysis
-    st.markdown('<div class="section-label">👤 Personal Information</div>', unsafe_allow_html=True)
-    c1, c2, c3 = st.columns(3)  # Create 3 columns for layout
-    
+    pi_col, reset_col = st.columns([6, 1])
+    with pi_col:
+        st.markdown('<div class="section-label">👤 Personal Information</div>', unsafe_allow_html=True)
+    with reset_col:
+        st.markdown("<br>", unsafe_allow_html=True)
+        if st.button("🔁 Reset", help="Clear all answers and start fresh", use_container_width=True):
+            _reset_all()  # Wipe session state and rerun
+
+    c1, c2, c3 = st.columns(3)
+
     with c1:
-        # Collect name and age in first column
-        name       = st.text_input("Full Name", placeholder="Your name")
-        age        = st.number_input("Age", min_value=15, max_value=100, value=28)
-    
+        # Name is REQUIRED — stored in session state
+        name = st.text_input(
+            "Full Name \u2731",  # ✱ asterisk shows it's required
+            placeholder="Your name (required)",
+            key="pi_name",
+        )
+        age = st.number_input(
+            "Age", min_value=15, max_value=100,
+            key="pi_age",
+        )
+
     with c2:
-        # Collect gender and profession in second column
-        gender     = st.selectbox("Gender", ["Male", "Female", "Prefer not to say"])
-        profession = st.text_input("Profession / Field", placeholder="e.g. Software Engineer")
-    
+        gender = st.selectbox(
+            "Gender",
+            ["Male", "Female", "Prefer not to say"],
+            key="pi_gender",
+        )
+        profession = st.text_input(
+            "Profession / Field",
+            placeholder="e.g. Software Engineer",
+            key="pi_profession",
+        )
+
     with c3:
-        # Collect date of birth in third column (needed for numerology calculation)
         dob = st.date_input(
             "Date of Birth",
-            value=datetime.date(1995, 6, 15),
+            key="pi_dob",
             min_value=datetime.date(1930, 1, 1),
             max_value=datetime.date.today(),
         )
@@ -926,14 +1073,36 @@ def main():
     # ── PREDICT BUTTON ────────────────────────────────────────────────────────
     # Add spacing and display large "Predict" button
     st.markdown("<br>", unsafe_allow_html=True)
-    _, mid, _ = st.columns([1, 2, 1])  # Center the button
+    _, mid, _ = st.columns([1, 2, 1])
     with mid:
         clicked = st.button("🔍 Generate My Personality Profile", use_container_width=True)
 
-    # ── RESULTS ───────────────────────────────────────────────────────────────
-    # Only process if user clicks the predict button
+    # ── WAIT FOR CLICK ────────────────────────────────────────────────────────
     if not clicked:
-        return  # Exit function early if button not clicked
+        if not st.session_state.get("profile_done", False):
+            st.info("📝 Fill all 4 sections above, then click **Generate My Personality Profile**.")
+        return
+
+    # ── REQUIRED FIELDS VALIDATION ────────────────────────────────────────────
+    errors = []
+
+    # Name is required
+    if not name.strip():
+        errors.append("👤 **Full Name** is required — please enter your name.")
+
+    # All 24 survey responses must be present in session state
+    unanswered = 0
+    for prefix in ["c", "m", "w", "cp"]:
+        for i in range(6):
+            if not st.session_state.get(f"{prefix}_{i}"):
+                unanswered += 1
+    if unanswered:
+        errors.append(f"📋 **{unanswered} question(s)** unanswered — please visit every survey section.")
+
+    if errors:
+        for err in errors:
+            st.markdown(f'<div class="req-error">⚠️ {err}</div>', unsafe_allow_html=True)
+        st.stop()
 
     # Calculate all predictions while showing loading spinner
     with st.spinner("Analysing your profile…"):
@@ -968,8 +1137,10 @@ def main():
         # 7. BUILD PERSONALIZED 7-DAY SCHEDULE
         schedule = build_schedule(b_type, w_type, risk_lvl)
 
+    # Mark profile as successfully generated (persists in session state)
+    st.session_state["profile_done"] = True
+
     # ── RESULTS DISPLAY ───────────────────────────────────────────────────────
-    # Show confirmation message with user's name
     display_name = name if name else "You"
     st.success(f"✅ Profile generated for **{display_name}**")
     st.divider()
@@ -1080,10 +1251,13 @@ def main():
         w_raw = w_df.values[0].tolist()   # [openness, conscientiousness, ...]
 
         with rc1:
-            st.plotly_chart(
-                buddhist_radar(b_raw, b_type, b_conf),
-                use_container_width=True,
-            )
+            try:
+                st.plotly_chart(
+                    buddhist_radar(b_raw, b_type, b_conf),
+                    use_container_width=True,
+                )
+            except Exception:
+                st.warning("Buddhist radar chart could not load. Please refresh the page.")
             with st.expander("What do these axes mean?"):
                 st.markdown("""
 | Axis | Meaning |
@@ -1097,10 +1271,13 @@ def main():
                 """)
 
         with rc2:
-            st.plotly_chart(
-                western_radar(w_raw, w_type, w_conf),
-                use_container_width=True,
-            )
+            try:
+                st.plotly_chart(
+                    western_radar(w_raw, w_type, w_conf),
+                    use_container_width=True,
+                )
+            except Exception:
+                st.warning("Western radar chart could not load. Please refresh the page.")
             with st.expander("What do these axes mean?"):
                 st.markdown("""
 | Axis | Meaning |
@@ -1117,10 +1294,13 @@ def main():
     with v_tab2:
         gc1, gc2 = st.columns(2)
         with gc1:
-            st.plotly_chart(
-                risk_gauge(risk_score, risk_lvl),
-                use_container_width=True,
-            )
+            try:
+                st.plotly_chart(
+                    risk_gauge(risk_score, risk_lvl),
+                    use_container_width=True,
+                )
+            except Exception:
+                st.warning("Risk gauge could not load. Please refresh the page.")
             with st.expander("How is the risk score calculated?"):
                 st.markdown("""
 The risk score is a **weighted composite** of your four domain scores:
@@ -1139,10 +1319,13 @@ Risk = (6 - Mental Health) × 0.40
 | 3.5 – 5.0  | 🔴 High Risk |
                 """)
         with gc2:
-            st.plotly_chart(
-                composite_bar(cs, mh, ws, cp),
-                use_container_width=True,
-            )
+            try:
+                st.plotly_chart(
+                    composite_bar(cs, mh, ws, cp),
+                    use_container_width=True,
+                )
+            except Exception:
+                st.warning("Score bar chart could not load. Please refresh the page.")
             with st.expander("What are the composite scores?"):
                 st.markdown("""
 Each composite score is the **average of 6 survey responses** in that domain,
